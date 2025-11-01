@@ -1,0 +1,36 @@
+{
+"ambientIntensity": 1,
+"gameObjects": [
+	{
+		"components": [
+			{
+				"class": "org.catrobat.catroid.raptor.RenderComponent",
+				"modelFileName": "models/cube.obj"
+			}
+		],
+		"id": "Empty",
+		"name": "Empty",
+		"transform": {
+			"position": {
+				"x": 10,
+				"y": 10,
+				"z": 10
+			},
+			"rotation": {
+				"w": 1,
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			}
+		}
+	}
+],
+"skyB": 0.3,
+"skyG": 0.2,
+"skyR": 0.1
+}
