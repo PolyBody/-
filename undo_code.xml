@@ -290,11 +290,6 @@
               <commentedOut>false</commentedOut>
               <scriptId>1b72d85e-a3e2-46fc-bbb0-888a3eea3de1</scriptId>
             </script>
-            <org.catrobat.catroid.content.ExitProjectScript type="ExitProjectScript" posX="0.0" posY="0.0">
-              <brickList/>
-              <commentedOut>false</commentedOut>
-              <scriptId>fcf4d02d-c979-4f41-92ce-5d278ab9b0a8</scriptId>
-            </org.catrobat.catroid.content.ExitProjectScript>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -1558,6 +1553,53 @@
               </brickList>
               <commentedOut>false</commentedOut>
               <scriptId>bd5b073a-f335-4b8b-b519-0cb8340185ec</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="1657a7bd-0d55-4a38-a5d2-e0deec579ef6" name="как играть">
+          <lookList>
+            <look fileName="Мой актер или объект_#8.png" lookId="f6c228dd-f640-419a-b64d-ac087e540c5a" name="как играть">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>7bf1b62c-84c8-4180-8e59-061f28885fcc</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>968</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>299</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>7a9d8930-23c7-4bd9-94cc-25f62cfd00cb</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList/>
+              <commentedOut>false</commentedOut>
+              <scriptId>c919057f-2734-44b8-994e-f7e826a47acf</scriptId>
             </script>
           </scriptList>
           <nfcTagList/>
@@ -2937,9 +2979,18 @@
     <userVariable type="UserVariable" serialization="custom">
       <userVariable>
         <default>
-          <initialIndex>-1</initialIndex>
+          <initialIndex>11</initialIndex>
           <deviceValueKey>2e49149e-3b02-4d1c-a491-5b135c467454</deviceValueKey>
           <name>scrollingBiasY</name>
+        </default>
+      </userVariable>
+    </userVariable>
+    <userVariable type="UserVariable" serialization="custom">
+      <userVariable>
+        <default>
+          <initialIndex>12</initialIndex>
+          <deviceValueKey>bf5fe350-942d-4bbd-be7f-c4581bed2a5f</deviceValueKey>
+          <name>обучение</name>
         </default>
       </userVariable>
     </userVariable>

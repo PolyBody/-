@@ -290,6 +290,23 @@
               <commentedOut>false</commentedOut>
               <scriptId>1b72d85e-a3e2-46fc-bbb0-888a3eea3de1</scriptId>
             </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="NoteBrick">
+                  <brickId>e9d919b5-fd66-455c-83c8-b5def9095055</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="NOTE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>добавьте заметку…</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>6aea938e-8eb3-408b-90ee-16f7f313b45e</scriptId>
+            </script>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -922,7 +939,7 @@
                 <brick type="SceneStartBrick">
                   <brickId>191edd12-238c-4204-9f1b-9490e669c192</brickId>
                   <commentedOut>false</commentedOut>
-                  <sceneToStart>чегжлог</sceneToStart>
+                  <sceneToStart>ченжлог</sceneToStart>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -2840,7 +2857,7 @@
       </objectList>
     </scene>
     <scene sceneId="5995cef0-8513-4a6c-9873-ba5c7f0e19f5">
-      <name>чегжлог</name>
+      <name>ченжлог</name>
       <objectList>
         <object type="Sprite" spriteId="fb75cc09-d3c6-4f2c-b00f-5bb2b84f36cb" name="Фон">
           <lookList>
@@ -2932,9 +2949,18 @@
     <userVariable type="UserVariable" serialization="custom">
       <userVariable>
         <default>
-          <initialIndex>-1</initialIndex>
+          <initialIndex>11</initialIndex>
           <deviceValueKey>2e49149e-3b02-4d1c-a491-5b135c467454</deviceValueKey>
           <name>scrollingBiasY</name>
+        </default>
+      </userVariable>
+    </userVariable>
+    <userVariable type="UserVariable" serialization="custom">
+      <userVariable>
+        <default>
+          <initialIndex>12</initialIndex>
+          <deviceValueKey>bf5fe350-942d-4bbd-be7f-c4581bed2a5f</deviceValueKey>
+          <name>обучение</name>
         </default>
       </userVariable>
     </userVariable>
